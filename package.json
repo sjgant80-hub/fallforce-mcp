@@ -1,0 +1,24 @@
+{
+  "name": "@ai-native-solutions/fallforce-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for FallForce CRM · pipeline math, risk detection, forecast, autopilot roles · via stdio",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "fallforce-mcp": "bin/fallforce-mcp.js"
+  },
+  "files": ["src", "bin", "README.md", "LICENSE"],
+  "keywords": ["mcp", "model-context-protocol", "crm", "sales", "pipeline", "sovereign", "claude"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/fallforce-mcp.git"
+  },
+  "homepage": "https://github.com/sjgant80-hub/fallforce-mcp",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@ai-native-solutions/fallforce-sdk": "^1.0.0"
+  }
+}
